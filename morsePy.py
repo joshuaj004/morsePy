@@ -55,6 +55,7 @@ def main():
     morseList = (list(morseString.split(' ')))
     print(morseList)
     soundImport(morseList)
+    input()
 
 
 main()
